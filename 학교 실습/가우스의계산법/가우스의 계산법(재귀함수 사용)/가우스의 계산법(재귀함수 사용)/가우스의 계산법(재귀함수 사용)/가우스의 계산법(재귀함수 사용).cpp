@@ -13,5 +13,7 @@
 	}
 	int main()
 	{
-		cout << Gausfuc(100);
+		int a = 0;
+		cin >> a;
+		cout << Gausfuc(a);
 	}
