@@ -2,33 +2,16 @@
 
 using namespace std;
 
-int sum = 0;
-int b = 0;
-int Maxnum(int a[], int i)
+#define MAX(x,y) ((x) > (y) ? (x) : (y))
+
+int findMax(int arr[], int n)
 {
-	if (sum < a[b])
-		sum = a[b];
-	++b;
-	if (b == i)
-	{
-		return sum;
-	}
-	else
-	{
-		Maxnum(a, i);
-	}
+	if (n == 1)
+		return MAX(arr[n], arr[n - 1]);
+	return MAX(arr[n], findMax(arr, n - 1));
 }
 int main()
 {
-	int a[100];
-	int i = 0;
-	cout << "숫자를 입력해주세요 0은 끝";
-	while (a[i - 1] != 0)
-	{
-		cin >> a[i];
-		++i;
-	}
-	cout << Maxnum(a , i);
-
-	
+	int a[100] = { 1,8,2,5,8,10 };
+	cout << findMax(a, 6);
 }
