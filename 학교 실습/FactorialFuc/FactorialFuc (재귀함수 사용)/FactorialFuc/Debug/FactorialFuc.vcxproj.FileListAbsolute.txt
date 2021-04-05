@@ -1,0 +1,1 @@
+E:\C++Practice\C++CodePractice\학교 실습\FactorialFuc\FactorialFuc (재귀함수 사용)\FactorialFuc\Debug\FactorialFuc.exe

@@ -1,20 +1,16 @@
 ﻿#include <iostream>
 
 using namespace std;
-int sum = 1;
-void FactorialFuc(int a)
+
+int FactorialRecursive(int n)
 {
-	if (a != 0)
-	{
-		sum *= a;
-		--a;
-		FactorialFuc(a);
-	}
-	else
-		cout << sum;
+    if (n == 1)    
+        return 1;   
+    return n * FactorialRecursive(n - 1);
 }
+
 int main()
 {
-	FactorialFuc(5);
+	cout << FactorialRecursive(5);
 }
 
