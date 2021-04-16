@@ -1,0 +1,5 @@
+﻿  스택을 활용한 미로.cpp
+E:\C++Practice\C++CodePractice\학교 실습\스택을 활용한 미로\스택을 활용한 미로\스택을 활용한 미로\스택을 활용한 미로.cpp(72,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+E:\C++Practice\C++CodePractice\학교 실습\스택을 활용한 미로\스택을 활용한 미로\스택을 활용한 미로\스택을 활용한 미로.cpp(122,9): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+E:\C++Practice\C++CodePractice\학교 실습\스택을 활용한 미로\스택을 활용한 미로\스택을 활용한 미로\스택을 활용한 미로.cpp(122,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  스택을 활용한 미로.vcxproj -> E:\C++Practice\C++CodePractice\학교 실습\스택을 활용한 미로\스택을 활용한 미로\Debug\스택을 활용한 미로.exe
