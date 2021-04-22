@@ -1,0 +1,4 @@
+﻿  단순 연결리스트 구현.cpp
+E:\C++Practice\C++CodePractice\학교 실습\단순 연결리스트 구현\단순 연결리스트 구현\단순 연결리스트 구현\단순 연결리스트 구현.cpp(93,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+E:\C++Practice\C++CodePractice\학교 실습\단순 연결리스트 구현\단순 연결리스트 구현\단순 연결리스트 구현\단순 연결리스트 구현.cpp(112,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  단순 연결리스트 구현.vcxproj -> E:\C++Practice\C++CodePractice\학교 실습\단순 연결리스트 구현\단순 연결리스트 구현\Debug\단순 연결리스트 구현.exe
