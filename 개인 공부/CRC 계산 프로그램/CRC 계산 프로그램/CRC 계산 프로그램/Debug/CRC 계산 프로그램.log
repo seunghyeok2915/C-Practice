@@ -1,0 +1,6 @@
+﻿  CRC 계산 프로그램.cpp
+E:\C++Practice\C++CodePractice\개인 공부\CRC 계산 프로그램\CRC 계산 프로그램\CRC 계산 프로그램\CRC 계산 프로그램.cpp(11,16): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\C++Practice\C++CodePractice\개인 공부\CRC 계산 프로그램\CRC 계산 프로그램\CRC 계산 프로그램\CRC 계산 프로그램.cpp(37,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+E:\C++Practice\C++CodePractice\개인 공부\CRC 계산 프로그램\CRC 계산 프로그램\CRC 계산 프로그램\CRC 계산 프로그램.cpp(42,21): error C2664: 'unsigned int crc16(char *,unsigned int)': 인수 1을(를) 'char (*)[6]'에서 'char *'(으)로 변환할 수 없습니다.
+E:\C++Practice\C++CodePractice\개인 공부\CRC 계산 프로그램\CRC 계산 프로그램\CRC 계산 프로그램\CRC 계산 프로그램.cpp(42,8): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+E:\C++Practice\C++CodePractice\개인 공부\CRC 계산 프로그램\CRC 계산 프로그램\CRC 계산 프로그램\CRC 계산 프로그램.cpp(3,14): message : 'crc16' 선언을 참조하십시오.

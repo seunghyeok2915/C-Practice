@@ -1,0 +1,18 @@
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\bin\Debug\net5.0-windows\첫 프로그램.exe
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\bin\Debug\net5.0-windows\첫 프로그램.deps.json
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\bin\Debug\net5.0-windows\첫 프로그램.runtimeconfig.json
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\bin\Debug\net5.0-windows\첫 프로그램.runtimeconfig.dev.json
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\bin\Debug\net5.0-windows\첫 프로그램.dll
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\bin\Debug\net5.0-windows\ref\첫 프로그램.dll
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\bin\Debug\net5.0-windows\첫 프로그램.pdb
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\obj\Debug\net5.0-windows\첫 프로그램.csprojAssemblyReference.cache
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\obj\Debug\net5.0-windows\첫_프로그램.Form1.resources
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\obj\Debug\net5.0-windows\첫 프로그램.csproj.GenerateResource.cache
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\obj\Debug\net5.0-windows\첫 프로그램.GeneratedMSBuildEditorConfig.editorconfig
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\obj\Debug\net5.0-windows\첫 프로그램.AssemblyInfoInputs.cache
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\obj\Debug\net5.0-windows\첫 프로그램.AssemblyInfo.cs
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\obj\Debug\net5.0-windows\첫 프로그램.csproj.CoreCompileInputs.cache
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\obj\Debug\net5.0-windows\첫 프로그램.dll
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\obj\Debug\net5.0-windows\ref\첫 프로그램.dll
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\obj\Debug\net5.0-windows\첫 프로그램.pdb
+E:\C++Practice\C++CodePractice\학교 실습\첫 프로그램\첫 프로그램\첫 프로그램\obj\Debug\net5.0-windows\첫 프로그램.genruntimeconfig.cache

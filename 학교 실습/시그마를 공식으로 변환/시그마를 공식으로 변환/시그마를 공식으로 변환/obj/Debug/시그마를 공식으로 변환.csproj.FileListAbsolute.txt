@@ -1,0 +1,7 @@
+E:\C++Practice\C++CodePractice\학교 실습\시그마를 공식으로 변환\시그마를 공식으로 변환\시그마를 공식으로 변환\bin\Debug\시그마를 공식으로 변환.exe.config
+E:\C++Practice\C++CodePractice\학교 실습\시그마를 공식으로 변환\시그마를 공식으로 변환\시그마를 공식으로 변환\bin\Debug\시그마를 공식으로 변환.exe
+E:\C++Practice\C++CodePractice\학교 실습\시그마를 공식으로 변환\시그마를 공식으로 변환\시그마를 공식으로 변환\bin\Debug\시그마를 공식으로 변환.pdb
+E:\C++Practice\C++CodePractice\학교 실습\시그마를 공식으로 변환\시그마를 공식으로 변환\시그마를 공식으로 변환\obj\Debug\시그마를 공식으로 변환.csprojAssemblyReference.cache
+E:\C++Practice\C++CodePractice\학교 실습\시그마를 공식으로 변환\시그마를 공식으로 변환\시그마를 공식으로 변환\obj\Debug\시그마를 공식으로 변환.csproj.CoreCompileInputs.cache
+E:\C++Practice\C++CodePractice\학교 실습\시그마를 공식으로 변환\시그마를 공식으로 변환\시그마를 공식으로 변환\obj\Debug\시그마를 공식으로 변환.exe
+E:\C++Practice\C++CodePractice\학교 실습\시그마를 공식으로 변환\시그마를 공식으로 변환\시그마를 공식으로 변환\obj\Debug\시그마를 공식으로 변환.pdb
