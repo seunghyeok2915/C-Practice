@@ -1,73 +1,113 @@
-﻿#include <iostream>
-#include <string>
+﻿//20312이승혁
+#include <iostream>
 #include <stack>
-#include <sstream>
+#include <string>
+#include <cstring>
+#include <queue>
 
 using namespace std;
 
-struct oper {
-	int p;
-	string o;
-};
+double PostCalculator(char exp[]) {
+    stack<double> stack;
+    int len = strlen(exp);
+    char tok;
+    for (int i = 0; i < len; i++) {
+        tok = exp[i];
+        if (isdigit(tok)) {
+            stack.push((double)(tok - '0'));
+        }
+        else {
+            double op2 = stack.top(); stack.pop();
+            double op1 = stack.top(); stack.pop();
 
-stack<int> num;
-stack<oper> op;
-
-void calc() {
-	int a, b, result;
-	b = num.top();
-	num.pop();
-	a = num.top();
-	num.pop();
-	string oper = op.top().o;
-	op.pop();
-
-	if (oper == "*")
-		result = a * b;
-	else if (oper == "/")
-		result = a / b;
-	else if (oper == "+")
-		result = a + b;
-	else if (oper == "-")
-		result = a - b;
-	num.push(result);
+            switch (tok) {
+            case '+':
+                stack.push(op1 + op2);
+                break;
+            case '-':
+                stack.push(op1 - op2);
+                break;
+            case '*':
+                stack.push(op1 * op2);
+                break;
+            case '/':
+                stack.push(op1 / op2);
+                break;
+            }
+        }
+    }
+    return stack.top();
 }
 
-int main() {
-	string input = "( 1 + 9 ) * 3 / 3 - 2"; // 8
-	stringstream ss(input);
-	string tok;
-	while (ss >> tok) {
-		if (tok == "(") {
-			op.push({ 0, tok });
-		}
-		else if (tok == ")") {
-			while (op.top().o != "(")
-				calc();
-			op.pop();
-		}
-		else if (tok == "*" || tok == "/" || tok == "+" || tok == "-") {
-			int prior = 0;
-			if (tok == "*")
-				prior = 2;
-			else if (tok == "/")
-				prior = 2;
-			else if (tok == "+")
-				prior = 1;
-			else if (tok == "-")
-				prior = 1;
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
 
-			while (!op.empty() && prior <= op.top().p)
-				calc();
-			op.push({ prior, tok });
-		}
-		else
-			num.push(stoi(tok));
-	}
-	while (!op.empty())
-		calc();
+    string s;
+    stack<char> op;
+    queue<char> qc;
+    cin >> s;
 
-	cout << num.top();
+    char num[100] = { 0, };
 
-	return 0;
+    for (int i = 0; i < s.length(); i++)
+    {
+        if (s[i] >= '0' && s[i] <= '9')
+        {
+            qc.push(s[i]);
+        }
+        else
+        {
+            if (s[i] == '(')
+                op.push(s[i]);
+            else if (s[i] == '*' || s[i] == '/')
+            {
+                while (!op.empty() && (op.top() == '*' || op.top() == '/'))
+                {
+                    qc.push(op.top());
+                    op.pop();
+                }
+                op.push(s[i]);
+            }
+            else if (s[i] == '+' || s[i] == '-')
+            {
+                while (!op.empty() && op.top() != '(')
+                {
+                    qc.push(op.top());
+                    op.pop();
+                }
+                op.push(s[i]);
+            }
+            else if (s[i] == ')')
+            {
+                while (!op.empty() && op.top() != '(')
+                {
+                    qc.push(op.top());
+                    op.pop();
+                }
+                op.pop();
+            }
+        }
+    }
+    string sss = "";
+    while (!op.empty())
+    {
+        qc.push(op.top());
+        op.pop();
+    }
+
+    int i = 0;
+    while (!qc.empty())
+    {
+        num[i] = qc.front();
+        i++;
+        qc.pop();
+    }
+
+    cout << PostCalculator(num);
+
+
+    return 0;
 }

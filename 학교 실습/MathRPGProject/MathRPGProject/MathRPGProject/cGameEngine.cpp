@@ -3,7 +3,7 @@
 
 void SetConsoleView()
 {
-    system("mode con:cols=150 lines=40");
+    system("mode con:cols=150 lines=45");
     system("title Math RPG");
 }
 

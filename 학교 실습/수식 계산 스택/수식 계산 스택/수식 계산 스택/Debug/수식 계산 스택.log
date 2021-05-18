@@ -1,2 +1,4 @@
 ﻿  수식 계산 스택.cpp
+E:\C++Practice\C++CodePractice\학교 실습\수식 계산 스택\수식 계산 스택\수식 계산 스택\수식 계산 스택.cpp(11,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\C++Practice\C++CodePractice\학교 실습\수식 계산 스택\수식 계산 스택\수식 계산 스택\수식 계산 스택.cpp(52,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   수식 계산 스택.vcxproj -> E:\C++Practice\C++CodePractice\학교 실습\수식 계산 스택\수식 계산 스택\Debug\수식 계산 스택.exe
