@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	int n = 0;
-	cout << "제곱 입력하셈.";
+	cout << "서브넷 마스크 1개수 입력";
 	cin >> n;
 
 	int temp = 256 / pow(2, n);
@@ -20,4 +20,4 @@ int main()
 		m += temp;
 	}
 }
-
+ㅇ

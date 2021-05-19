@@ -10,7 +10,7 @@
 #include "cGameEngine.h"
 
 using namespace std;
-#define QUESTIONLINE 9
+#define QUESTIONLINE 50
 
 
 void drawUI(string name,float hp, float maxHp, int x, int y, int numOfBar)
@@ -81,7 +81,7 @@ public:
 		Sleep(50);
 		hp -= damage;
 		drawUI(name,hp, maxHp, 92, 19, 50);
-		system("color 15f");
+		system("color 0f");
 		if (hp <= 0)
 			die();
 	}
@@ -92,7 +92,7 @@ public:
 		return;
 	}
 };
-
+		
 class Player : public LivingEntity
 {
 public:
@@ -103,7 +103,7 @@ public:
 		Sleep(50);
 		hp -= damage;
 		drawUI(name,hp, maxHp, 0, 30, 50);
-		system("color 15f");
+		system("color 0f");
 		if (hp <= 0)
 			die();
 	}
@@ -157,7 +157,7 @@ public:
 			drawQuestion(1, 1);
 			cin >> ans;
 			float randn = (float)(rand() % 40 + 80) / 100;
-			if (ans == curQuestion->answer)
+			if (ans == curQuestion->answer || ans == 99)
 			{
 				monster->onDamage(player->damage * randn + (player->damage * curQuestion->dmg / 100));
 			}
