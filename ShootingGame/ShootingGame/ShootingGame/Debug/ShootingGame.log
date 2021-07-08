@@ -1,0 +1,10 @@
+﻿  Missile.cpp
+  ShootingGame.cpp
+E:\C++Practice\C++CodePractice\개인 공부\ShootingGame\ShootingGame\ShootingGame\ShootingGame.cpp(55,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\C++Practice\C++CodePractice\개인 공부\ShootingGame\ShootingGame\ShootingGame\ShootingGame.cpp(61,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\C++Practice\C++CodePractice\개인 공부\ShootingGame\ShootingGame\ShootingGame\ShootingGame.cpp(96,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\C++Practice\C++CodePractice\개인 공부\ShootingGame\ShootingGame\ShootingGame\ShootingGame.cpp(105,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\C++Practice\C++CodePractice\개인 공부\ShootingGame\ShootingGame\ShootingGame\ShootingGame.cpp(114,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\C++Practice\C++CodePractice\개인 공부\ShootingGame\ShootingGame\ShootingGame\ShootingGame.cpp(116,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
+  ShootingGame.vcxproj -> E:\C++Practice\C++CodePractice\개인 공부\ShootingGame\ShootingGame\Debug\ShootingGame.exe

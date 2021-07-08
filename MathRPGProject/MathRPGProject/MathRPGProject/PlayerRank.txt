@@ -1,0 +1,4 @@
+John/300/Genius
+Gabriel/400/Genius
+Lee/200/Fool
+È«¿­/100/Fool
